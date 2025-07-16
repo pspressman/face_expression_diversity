@@ -28,3 +28,5 @@ This project is a heavily modified version of code originally developed by Susan
 See `LICENSE.biswas` for the original license text.
 
 This software includes components derived from models trained using the FER-2013 dataset. The FER-2013 dataset is licensed for non-commercial academic use only. Redistribution or commercial use of this software may be subject to additional restrictions based on FER-2013 dataset terms.
+
+Model weights are for academic research only, in accordance with FER-2013 usage restrictions.
