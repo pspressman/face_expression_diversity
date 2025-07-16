@@ -5,12 +5,12 @@ This pipeline analyzes facial expressions in video recordings to calculate emoti
 
 ## Pipeline Components
 
-### 1. emotion_tracker.py
+### 1. modified_emotion_tracker.py
 **Purpose:** Extract frame-by-frame emotion probabilities from videos  
 **Input:** Video files (.avi format)  
 **Output:** CSV files with emotion scores for each frame  
 
-### 2. FaceCombine2.py
+### 2. face_data_combine.py
 **Purpose:** Aggregate frame-level data into participant-level metrics  
 **Input:** CSV files from emotion_tracker.py  
 **Output:** Excel/CSV with diversity indices and dispersion measures  
@@ -120,3 +120,27 @@ project/
 
 ## Citation
 If using this pipeline, please cite the original paper describing the diversity metrics approach to facial expression analysis in neurocognitive disorders.
+
+## Attribution
+
+This project is a heavily modified version of code originally developed by Susanta Biswas (© 2021) and licensed under the MIT License.
+
+See `LICENSE.biswas` for the original license text.
+
+## Dataset Attribution
+
+This software builds upon models originally trained using the FER-2013 dataset, which is made available for non-commercial, academic research only.
+
+FER-2013 dataset: [https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data)
+
+## License
+
+This project is released under the MIT License. See the [LICENSE](./LICENSE) file for details.
+
+Note: Portions of the codebase are derived from prior work by Susanta Biswas, also under MIT. See `LICENSE.biswas` for original license terms.
+
+This software incorporates models trained using the FER-2013 dataset, which is restricted to **non-commercial academic use only**. Redistribution or commercial use of trained models may be subject to additional limitations under the FER-2013 dataset license.
+
+## Funding
+
+This work was supported by the National Institutes of Health under grant number NIA K23 AG063900. The content is solely the responsibility of the authors and does not necessarily represent the official views of the NIH.
